@@ -41,7 +41,7 @@ O objetivo é inserir o nome e XP de um personagem e ver em qual nível de poder
 
 ![captura 1](./assets/media/Capturar_1.PNG)
 
-![captura 2](./assets/media/Captura_2.PNG)
+![captura 2](./assets/media/captura_2.PNG)
 
 ![captura 3](./assets/media/Captura_3.PNG)
 
