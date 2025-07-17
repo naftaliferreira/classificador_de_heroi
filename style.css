@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: #1e2a38;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #00ffcc;
+  font-family: 'MedievalSharp', cursive;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px;
+  background-color: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00e6b0;
+}
+
+.resultado {
+  margin-top: 30px;
+}
+
+.personagem img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ffcc;
+  object-fit: contain;
+}
+
+/* Mensagem abaixo do personagem */
+#mensagem {
+  font-family: 'MedievalSharp', cursive;
+  font-weight: normal;
+  color: #99aabb; /* tom suave */
+  font-size: 1.1rem;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+/* Destaques: nome e nível (mesma fonte, mas com cor de destaque suave, sem bold) */
+#mensagem .msg-nome,
+#mensagem .msg-nivel {
+  color: #00ffcc; /* destaque leve sobre fundo escuro */
+  font-weight: normal;
+}
