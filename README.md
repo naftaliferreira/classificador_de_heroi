@@ -39,6 +39,12 @@ O objetivo é inserir o nome e XP de um personagem e ver em qual nível de poder
 
 ✨ Cada herói muda de aparência conforme sobe de nível!
 
+![captura 1](./assets/media/Capturar_1.PNG)
+
+![captura 2](./assets/media/Capturar_2.PNG)
+
+![captura 3](./assets/media/Captura_3.PNG)
+
 ## 🧾 Exemplo de saída
 ```
 O Herói de nome Arthas está no nível de Imortal
