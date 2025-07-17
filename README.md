@@ -3,6 +3,8 @@
 Bem-vindo ao Classificador de Herói, um mini projeto desenvolvido no estilo RPG 2D Pixel Art como parte do bootcamp da DIO.me.
 O objetivo é inserir o nome e XP de um personagem e ver em qual nível de poder ele se encontra!
 
+![captura](./assets/media/captura.PNG)
+
 ## 🎯 Objetivo
 **Aplicar conhecimentos básicos de:**
 
